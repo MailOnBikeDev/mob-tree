@@ -1,0 +1,103 @@
+/* Font Family: Monserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Styles */
+body {
+    background-color: #f9f9fc;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    margin-bottom: 10px;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.btn-group {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #303868;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    border-radius: 25px;
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    background: #303868;
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    line-height: 1.4rem;
+    background-color: #000000;
+    color: white;
+}
+
+.address {
+    margin: 20px;
+}
+
+.address h2 {
+    margin-bottom: 10px;
+}
+
+.email {
+    margin: 20px;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.phone a {
+    color: green;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
