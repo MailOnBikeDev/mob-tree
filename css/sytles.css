@@ -13,6 +13,14 @@ body {
     background-color: #f9f9fc;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -22,15 +30,15 @@ main {
 }
 
 .title {
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .subtitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: grey;
-    margin-bottom: 20px;
 }
 
 .avatar {
@@ -46,6 +54,10 @@ main {
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+
+.btn-group a .icon {
+    margin-right: 5px;
 }
 
 .btn {
@@ -95,9 +107,28 @@ footer {
     justify-content: center;
     flex-direction: row;
 }
+.phone span {
+    font-weight: bold;
+}
 
-.phone a {
+.phone .phone-link {
+    margin-right: 15px;
+}
+
+.whatsapp {
     color: green;
     text-decoration: none;
     margin-bottom: 20px;
+}
+
+.telegram {
+    color: steelblue;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px){
+    .subtitle {
+        font-size: 0.7rem;
+    }
 }
